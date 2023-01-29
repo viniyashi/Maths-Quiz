@@ -1,0 +1,88 @@
+body {
+    background-color: red;
+}
+
+.login_div1,
+.login_div2 {
+    background: rgb(122, 3, 3);
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    width: 30%;
+    height: 150px;
+    background-color: rgb(250, 249, 246);
+}
+
+#player1_name,
+#player2_name {
+    display: inline-block;
+    margin-left: 3px;
+    color: rgb(230, 209, 205);
+    font-weight: bold;
+}
+
+#word {
+    width: 60%;
+}
+
+#word_display {
+    letter-spacing: 5px;
+}
+
+#output {
+    background: rgb(117, 3, 3);
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+h1 {
+    color: rgb(231, 228, 221);
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    color: rgb(1, 14, 14);
+}
+
+#username {
+    font-family: 'Yellowtail', cursive;
+    color: rgb(2, 13, 12);
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input:hover {
+    background-color: rgb(241, 241, 231);
+}
+
+.login_div2:hover {
+    border: 5px solid rgb(102, 6, 73);
+    width: 35%;
+}
+
+.login_div1:hover {
+    border: 5px solid rgb(102, 6, 73);
+    width: 35%;
+}
+
+#number_1,
+#number_2 {
+    color: tomato;
+    font-weight: bold;
+}
+
+h4 {
+    color: bisque;
+    font-family: 'Akaya Kanadaka', cursive;
+    width: 100px;
+}
+
+h4:hover {
+    text-decoration: underline;
+}
